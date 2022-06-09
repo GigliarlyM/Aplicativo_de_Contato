@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    tools:context=".MenuPrincipal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/textTitlle"
+            style="@style/textGeral"
+            android:text="Menu Principal"
+            android:layout_centerHorizontal="true"/>
+
+        <LinearLayout
+            android:layout_below="@+id/textTitlle"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_contato"
+                style="@style/btnGeral"
+                android:text="Contato" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_email"
+                style="@style/btnGeral"
+                android:text="E-mail" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_redes_sociais"
+                style="@style/btnGeral"
+                android:text="Redes Sociais" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

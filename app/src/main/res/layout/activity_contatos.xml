@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    tools:context=".Contatos">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/textTitlle"
+            style="@style/textGeral"
+            android:text="Contatos"
+            android:layout_centerHorizontal="true"/>
+
+        <LinearLayout
+            android:layout_below="@+id/textTitlle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textList"
+                android:text="Estudante 1"/>
+
+            <TextView
+                style="@style/textList"
+                android:text="Estudante 2"/>
+
+            <TextView
+                style="@style/textList"
+                android:text="Estudante 3"/>
+
+            <TextView
+                style="@style/textList"
+                android:text="Estudante 4" />
+
+            <TextView
+                style="@style/textList"
+                android:text="Estudante 5"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="btnGeral">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_marginVertical">5dp</item>
+        <item name="android:background">@drawable/btn_background</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="textGeral">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFF5722</item>
+        <item name="android:textSize">34dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+    </style>
+
+    <style name="textList">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFF5722</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:drawableLeft">@drawable/ic_phone</item>
+    </style>
+
+</resources>
