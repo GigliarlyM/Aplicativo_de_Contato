@@ -20,24 +20,35 @@
 
         <LinearLayout
             android:layout_below="@+id/textTitlle"
-            android:layout_width="250dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/textTo"
-                style="@style/textGeral"
-                android:textSize="20sp"
-                android:text="De: Estudante \nPara: Estudante 1"/>
+            <EditText
+                android:id="@+id/email_destino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textAutoComplete"
+                android:textColor="@color/black"
+                android:hint="Email Destino"
+                android:background="@color/white"
+                android:layout_marginBottom="20dp"/>
 
             <EditText
+                android:id="@+id/email_texto"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:inputType="text|textMultiLine"
                 android:gravity="top"
                 android:textColor="@color/black"
                 android:hint="Add text"
-                android:background="@color/white"/>
+                android:background="@color/white"
+                android:layout_marginBottom="50dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/email_enviar"
+                android:text="Enviar Email"
+                style="@style/btnGeral"/>
 
         </LinearLayout>
 

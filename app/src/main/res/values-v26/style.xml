@@ -13,7 +13,7 @@
     <style name="textGeral">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">#FFFF5722</item>
+        <item name="android:textColor">#FF4976f1</item>
         <item name="android:textSize">34dp</item>
         <item name="android:layout_marginBottom">30dp</item>
     </style>
@@ -21,7 +21,7 @@
     <style name="textList">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">#FFFF5722</item>
+        <item name="android:textColor">#FF4976f1</item>
         <item name="android:textSize">20dp</item>
         <item name="android:drawableLeft">@drawable/ic_phone</item>
     </style>

@@ -25,6 +25,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/contato1"
                 style="@style/textList"
                 android:text="Estudante 1"/>
 
