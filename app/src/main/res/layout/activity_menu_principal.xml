@@ -15,8 +15,8 @@
         <TextView
             android:id="@+id/textTitlle"
             style="@style/textGeral"
-            android:text="Menu Principal"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true"
+            android:text="Menu Principal" />
 
         <LinearLayout
             android:layout_below="@+id/textTitlle"
